@@ -1,0 +1,422 @@
+﻿<html>
+<head>
+<style type="text/css">
+<!--
+	td
+	{
+		font:9pt 굴림;
+		line-height: 160%;
+	}
+	th
+	{
+		font:9pt 굴림;
+		line-height: 160%;
+	}
+	A:link     {font: bold 9pt "굴림 new"; color:#5A8AAD; text-decoration:none}
+	A:active   {font: bold 9pt "굴림 new"; color:#36618A; text-decoration:none}
+	A:visited  {font: bold 9pt "굴림 new"; color:#999999; text-decoration:none}
+	A:hover    {font: bold 9pt "굴림 new"; color:#36618A; text-decoration:none}
+	.input
+	{
+		BACKGROUND-COLOR: #ffffff;
+		BORDER-BOTTOM: #999999 1px solid;
+		BORDER-LEFT: #999999 1px solid;
+		BORDER-RIGHT: #999999 1px solid;
+		BORDER-TOP: #999999 1px solid;
+		COLOR: #999999;
+		FONT-SIZE: 9pt
+	}
+//.style2 {	font-size: 11px;
+	align: center;
+}
+-->
+</style>
+<script language=javascript>
+	var w=screen.width;
+	var h=screen.height
+	var alignX = w/2-(1000/2);
+	var alignY = h/2-(650/2);
+/*function popup(z)
+{
+	urls= z+".htm";
+	window.open(urls, 'popup', 'width=990,height=630,resizable=yes,scrollbars=no,toolbars=yes,menubars=0,top='+alignY+',left='+alignX);
+}*/
+function popup(num)
+{
+    if(num == 1) {
+   window.open("contents/0001/01/01_01.html","01",'left=0 top=0, width=999,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no'); 
+   } else if(num == 2) {
+   window.open("contents/0001/02/02_01.html","01",'left=0 top=0, width=999,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no'); 
+   } else if(num == 3) {
+    window.open("contents/0001/03/03_01.html","01",'left=0 top=0, width=999,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+   } else if(num == 4) {
+   window.open("contents/0001/04/04_01.html","01",'left=0 top=0, width=999,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+   } else if(num == 5) {
+    window.open("contents/0001/05/05_01.html","01",'left=0 top=0, width=999,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+   } else if(num == 6) {
+   window.open("contents/0001/06/06_01.html","01",'left=0 top=0, width=999,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+   } else if(num == 7) {
+     window.open("contents/0001/07/07_01.html","01",'left=0 top=0, width=999,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no'); 
+   } else if(num == 8) {
+     window.open("contents/0001/08/08_01.html","01",'left=0 top=0, width=999,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no'); 
+   } else if(num == 9) {
+      window.open("contents/0001/09/09_01.html","01",'left=0 top=0, width=1000,height=679,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+   } else if(num == 10) {
+     window.open("contents/0001/10/10_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+   } else if(num == 11) {
+     window.open("contents/0002/01/01_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+   } else if(num == 12) {
+     window.open("contents/0002/02/02_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+   } else if(num == 13) {
+     window.open("contents/0002/03/03_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+   } else if(num == 14) {
+     window.open("contents/0002/04/04_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+   } else if(num == 15) {
+     window.open("contents/0002/05/05_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+   } else if(num == 16) {
+     window.open("contents/0002/06/06_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+   } else if(num == 17) {
+     window.open("contents/0002/07/07_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+   } else if(num == 18) {
+     window.open("contents/0002/08/08_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+   } else if(num == 19) {
+     window.open("contents/0002/09/09_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+   } else if(num == 20) {
+     window.open("contents/0002/10/10_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+  } else if(num == 21) {
+     window.open("contents/0003/01/01_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+  } else if(num == 22) {
+     window.open("contents/0003/02/02_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+  } else if(num == 23) {
+     window.open("contents/0003/03/03_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+  } else if(num == 24) {
+     window.open("contents/0003/04/04_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+  } else if(num == 25) {
+     window.open("contents/0003/05/05_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+  } else if(num == 26) {
+     window.open("contents/0003/06/06_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+  } else if(num == 27) {
+     window.open("contents/0003/07/07_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+  } else if(num == 28) {
+     window.open("contents/0003/08/08_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+  } else if(num == 29) {
+     window.open("contents/0003/09/09_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+  } else if(num == 30) {
+     window.open("contents/0004/01/01_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+  } else if(num == 31) {
+     window.open("contents/0004/02/02_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+  } else if(num == 32) {
+     window.open("contents/0004/03/03_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+  } else if(num == 33) {
+     window.open("contents/0004/04/04_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+  } else if(num == 34) {
+     window.open("contents/0004/05/05_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+  } else if(num == 35) {
+     window.open("contents/0004/06/06_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+  } else if(num == 36) {
+     window.open("contents/0004/07/07_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+  } else if(num == 37) {
+     window.open("contents/0004/08/08_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+  } else if(num == 38) {
+     window.open("contents/0004/09/09_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+  } else if(num == 39) {
+     window.open("contents/0004/10/10_01.html","01",'left=0 top=0, width=1000,height=680,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no');
+
+
+   }
+}
+
+function linkpop(){
+	alignX = w/2-(410/2);
+	alignY = h/2-(475/2);
+	window.open('popup.html' ,'popup', 'width=410,height=475,resizable=yes,scrollbars=no,toolbars=yes,menubars=0,top='+alignY+',left='+alignX);
+}
+
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>[포스코 컨텐츠 개발]</title></head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<br>
+<table width="709"  border="0" align="center" cellpadding="3" cellspacing="5">
+  <TR>
+    <TD colSpan="2" height="30" align="center"><strong>01. PSM 공정의 위험성 평가</strong><br></td>
+  </TR>
+  <TR>
+    <TD bgColor="#69AFDA" colSpan="2" height="2"></td>
+  </TR>
+  <TR align="center" valign="middle">
+    <TD width="687" height="10"></td>
+    <TD width="0"></td>
+  </TR> 
+ 
+  <TR>
+  <TD height="30" bgcolor="#F7FAFD" align="center" colSpan="2" ><table cellpadding="4" cellspacing="1" border="0"  bgcolor="#D8D8D8" width="100%">
+    <TR align="center" class="css3">
+      <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">01. PSM공정 위험성 평가에 대한 이해<br>
+      </div></TD>
+      <TD width="48%" align="center" bgcolor="white"><div align="center"><b><A href="javascript:popup(1);">콘텐츠 보기(프로토)</a></b></div></TD>
+      </TR>
+        <TR align="center" class="css3">
+      <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">02. HAZOP에 대한 이해<br>
+      </div></TD>
+      <TD width="48%" align="center" bgcolor="white"><div align="center"><b><A href="javascript:popup(2);">콘텐츠 보기</a></b></div></TD>
+      </TR>
+        <TR align="center" class="css3">
+      <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">03. HAZOP 위험성평가 수행절차(1)<br>
+      </div></TD>
+      <TD width="48%" align="center" bgcolor="white"><div align="center"><b><A href="javascript:popup(3);">콘텐츠 보기</a></b></div></TD>
+      </TR>
+        <TR align="center" class="css3">
+      <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">04. HAZOP 위험성 평가 수행절차(2)<br>
+      </div></TD>
+      <TD width="48%" align="center" bgcolor="white"><div align="center"><b><A href="javascript:popup(4);">콘텐츠 보기</a></b></div></TD>
+      </TR>
+        <TR align="center" class="css3">
+      <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">05. HAZOP 위험성 평가 프로그램 사용법<br>
+      </div></TD>
+      <TD width="48%" align="center" bgcolor="white"><div align="center"><b><A href="javascript:popup(5);">콘텐츠 보기</a></b></div></TD>
+      </TR>
+        <TR align="center" class="css3">
+      <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">06. PHR/KPSR 위험성 평가<br>
+      </div></TD>
+      <TD width="48%" align="center" bgcolor="white"><div align="center"><b><A href="javascript:popup(6);">콘텐츠 보기</a></b></div></TD>
+      </TR>
+        <TR align="center" class="css3">
+      <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">07. K-PSR 위험성 평가<br>
+      </div></TD>
+      <TD width="48%" align="center" bgcolor="white"><div align="center"><b><A href="javascript:popup(7);">콘텐츠 보기</a></b></div></TD>
+      </TR>
+        <TR align="center" class="css3">
+      <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">08. 작업 안전분석<br>
+      </div></TD>
+      <TD width="48%" align="center" bgcolor="white"><div align="center"><b><A href="javascript:popup(8);">콘텐츠 보기</a></b></div></TD>
+      </TR>
+      
+    </TABLE>
+    <p>&nbsp;</p></td>
+  
+
+
+</table>
+
+
+
+<table width="709"  border="0" align="center" cellpadding="3" cellspacing="5">
+  <TR>
+    <TD colSpan="2" height="30" align="center"><strong>02. 비상대응계획</strong><br></td>
+  </TR>
+  <TR>
+    <TD bgColor="#69AFDA" colSpan="2" height="2"></td>
+  </TR>
+  <TR align="center" valign="middle">
+    <TD width="687" height="10"></td>
+    <TD width="0"></td>
+  </TR>
+  <TR>
+    <TD height="30" bgcolor="#F7FAFD" align="center" colSpan="2" ><table cellpadding="4" cellspacing="1" border="0"  bgcolor="#D8D8D8" width="100%">
+      <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">01. 비상조치계획 수립에 관한 기술지침<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"><b><A href="javascript:popup(11);">콘텐츠 보기</a></b></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">02. 사고 시나리오에 따른 비상대응계획 작성<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"><b><A href="javascript:popup(12);">콘텐츠 보기</a></b></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">03. 최악 및 대안 시나리오 선정 및 관리<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">04. 사고결과분석(Consequence Analysis;CA) 기법 활용<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">05. ALOHA 프로그램 활용법_설치 및 실행<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">06. ALOHA 프로그램 활용법_Source Modeling<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white">&nbsp;</TD>
+       </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">07. ALOHA 프로그램 활용법_평가결과 및 피해범위 적용사례 <br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">08. KORA 프로그램 활용법<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">09. e_CA(사고영향분석) 프로그램 활용법<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">10. 비상대응방안 사례 및 비상훈련계획 수립<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"></div></TD>
+      </TR>
+    </TABLE>
+        <p>&nbsp;</p></td>
+</table>
+<table width="709"  border="0" align="center" cellpadding="3" cellspacing="5">
+  <TR>
+    <TD colSpan="2" height="30" align="center"><strong>03. 공정도면 기술기준 해석</strong><br></td>
+  </TR>
+  <TR>
+    <TD bgColor="#69AFDA" colSpan="2" height="2"></td>
+  </TR>
+  <TR align="center" valign="middle">
+    <TD width="687" height="10"></td>
+    <TD width="0"></td>
+  </TR>
+  <TR>
+    <TD height="30" bgcolor="#F7FAFD" align="center" colSpan="2" ><table cellpadding="4" cellspacing="1" border="0"  bgcolor="#D8D8D8" width="100%">
+      <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">01. 공정도면의 개념과 법적요구사항<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"><b><A href="javascript:popup(21);">콘텐츠 보기</a></b></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">02. 공정도면의 종류별 특징<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"><b><A href="javascript:popup(22);">콘텐츠 보기</a></b></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">03. 공정도면의 구성요소 및 사양<br>
+        </div></TD>
+       <TD width="48%" align="center" bgcolor="white"><div align="center"><b><A href="javascript:popup(23);">콘텐츠 보기</a></b></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">04. P&amp;ID 출도 단계별 검토사항 및 LEGEND<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">05. 공정배관 및 계장도(P&amp;ID) Piping Part<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">06. 공정배관 및 계장도(P&amp;ID) Instrument Part <br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">07.공정배관 및 계장도(P&amp;ID) Check Piont 항목<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">08. 건물설비 배치도관련 세부도면<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">09. 건물설비 배치도관련 법적 요구사항	<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"></div></TD>
+      </TR>
+    </TABLE>
+        <p>&nbsp;</p></td>
+</table>
+<table width="709"  border="0" align="center" cellpadding="3" cellspacing="5">
+  <TR>
+    <TD colSpan="2" height="30" align="center"><strong>04. 공정안전 자료 작성 실무</strong><br></td>
+  </TR>
+  <TR>
+    <TD bgColor="#69AFDA" colSpan="2" height="2"></td>
+  </TR>
+  <TR align="center" valign="middle">
+    <TD width="687" height="10"></td>
+    <TD width="0"></td>
+  </TR>
+  <TR>
+    <TD height="30" bgcolor="#F7FAFD" align="center" colSpan="2" ><table cellpadding="4" cellspacing="1" border="0"  bgcolor="#D8D8D8" width="100%">
+      <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">01. 사업개요	<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"><b><A href="javascript:popup(30);">콘텐츠 보기</a></b></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">02. 유해위험물질 목록 및 자료(1)<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"><b><A href="javascript:popup(31);">콘텐츠 보기</a></b></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">03. 유해위험물질 목록 및 자료(2)<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">04. 동력기계 목록<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">05. 장치 및 설비명세(1)<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">06. 장치 및 설비명세(2)<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">07. 배관 및 개스킷 명세<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">08. 안전밸브 및 파열판 명세<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"><b><A href="javascript:popup(37);">콘텐츠 보기</a></b></div></TD>
+      </TR>
+       <TR align="center" class="css3">
+        <TD width=52% height=23 bgcolor="#F2F2F2"><div align="left">09. 공정안전자료 정합성 향상 Check Point<br>
+        </div></TD>
+        <TD width="48%" align="center" bgcolor="white"><div align="center"><b><A href="javascript:popup(38);">콘텐츠 보기</a></b></div></TD>
+      </TR>
+       
+    </TABLE>
+        <p>&nbsp;</p></td>
+</table>
+<p>&nbsp;</p>
+<table align="center" border="1" bordercolordark="white" bordercolorlight="#b9b9b9" cellspacing="0" cellpadding="0" width="693">
+  <tr>
+    <td width="120" height="50" align="center" bgcolor="#F5F5F5"><a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&amp;promoid=BIOW" target="_blank"><img src="setting/get_flash_player.gif" alt="" width="88" height="31" border="0"></a></td>
+    <td align="center" bgcolor="#F5F5F5" class="style2">본 컨텐츠를 보실려면 플래시 플레이어 9.0 이상이 꼭
+      탑재되어있어야 합니다. </br>
+      플레이어가 설치되어 있지 않다면 플래시 플레이어 버튼을 클릭하신후 설치하여 주시기 바랍니다.</td>
+  </tr>
+</table>
+</body>
+</html>
+
+
